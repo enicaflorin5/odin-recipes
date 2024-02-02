@@ -50,5 +50,29 @@ body, header, main {
 }
 
 footer {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+/* Button styles */
+.butones {
+  color: aliceblue;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 8px 8px; /* Adjust padding for better button size */
+  text-decoration: none; /* Apply text-decoration to the button text */
+  font-size: 16px;
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+
+
 
